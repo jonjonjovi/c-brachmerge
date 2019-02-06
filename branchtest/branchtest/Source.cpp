@@ -7,9 +7,12 @@ int main()
     std::cout << func() << std::endl;
     std::cout << "adding line by reviewer" << std::endl;
     std::cout << "adding line by coder" << std::endl;
-    std::cout << "adding line by coder2" << std::endl;
+    std::cout << "adding line by coder" << std::endl;
 }
 int func()
 {
+    std::cout << "adding line by coder3" << std::endl;
+
+    std::cout << "adding line by coder4" << std::endl;
     return 9;
 }
