@@ -1,5 +1,5 @@
 #include <iostream>
-#define num 10000
+#define num 1000000
 int func();
 int main()
 {
